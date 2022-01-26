@@ -1,0 +1,22 @@
+overview:
+ - what is reinforcement learning
+ - The Bellman Equation
+ - The Plan 
+ - Markov Decision Processes
+ - Policy vs Plan
+ - Adding a "Living Penalty" 
+ - Q-learning intuition
+ - Temporal Difference
+ - Q-learning visualisation
+
+
+Reinforcement Learning
+ - An agent takes action on an environment, its state is uttered based on the actions as a reward.
+
+Bellman eqaution
+    Richard Ernest bellman came with the concept of dynamic programming which is now has the bellman Equation.
+
+ - s -> state
+ - a -> action
+ - R -> reward
+ - γ -> Discount
