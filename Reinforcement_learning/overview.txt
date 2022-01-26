@@ -16,7 +16,19 @@ Reinforcement Learning
 Bellman eqaution
     Richard Ernest bellman came with the concept of dynamic programming which is now has the bellman Equation.
 
- - s -> state
- - a -> action
- - R -> reward
- - γ -> Discount
+    research paper: The theory of dynamic programming 1954
+
+    - s -> state
+    - a -> action
+    - R -> reward
+    - γ -> Discount
+
+    V(s) = max(R(s,a) + γV(s^1))
+
+    S^1 - the value of the previous state
+
+Q-learning visualisation
+    material: ai.berkley.edu/home.html
+    resource: The pack man
+
+last-point - video 10
