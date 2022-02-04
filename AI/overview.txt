@@ -62,11 +62,27 @@ Markov decision processes
         16. General
 
     AI planning and policy
+
       planing:
       Planning is a long-standing sub-area of Artificial Intelligence (AI). Planning is the task of finding a procedural course of action for a declaratively described system to reach 
       its goals while optimizing overall performance measures.
       
       policy:
-        Policy is a definite course or method of action selected from among alternatives and in light of given conditions to guide and determine present and future decisions. Whereas, Plan is a detailed 
-        formulation of a program of actions to achieve the objective.
+      Policy is a definite course or method of action selected from among alternatives and in light of given conditions to guide and determine present and future decisions. Whereas, Plan is a detailed 
+      formulation of a program of actions to achieve the objective.
+       
 
+
+    Living penalty:
+    This is the reward an AI gets when it makes an action.
+
+
+    Q-learning intuition:
+    recall: V(s) = max(R(s,a) + γV(s^1))
+            Q = R(s,a) + γV(s^1), where Q = Q-learning institution.
+            V(s) = max(Q)
+
+    Temporal Difference: 
+    This is the diffrence between the new Q-learning intuition and the old one.
+    TD(a,s) = Q(s^1) - Q(s) 
+    
