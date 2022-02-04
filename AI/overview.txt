@@ -1,0 +1,72 @@
+overview:
+ - what is reinforcement learning
+ - The Bellman Equation
+ - The Plan 
+ - Markov Decision Processes
+ - Policy vs Plan
+ - Adding a "Living Penalty" 
+ - Q-learning intuition
+ - Temporal Difference
+ - Q-learning visualisation
+
+
+Reinforcement Learning
+ - An agent takes action on an environment, its state is uttered based on the actions as a reward.
+
+Bellman eqaution
+    Richard Ernest bellman came with the concept of dynamic programming which is now has the bellman Equation.
+
+    research paper: The theory of dynamic programming 1954
+
+    - s -> state
+    - a -> action
+    - R -> reward
+    - γ -> Discount
+
+    V(s) = max(R(s,a) + γV(s^1))
+
+    S^1 - the value of the previous state
+
+Q-learning visualisation
+    material: ai.berkley.edu/home.html
+    resource: The pack man
+
+Markov decision processes
+
+    - markov process
+    A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability 
+    of each event depends only on the state attained in the previous event
+
+    - markov decision process
+    It provides a mathematical framework for modeling decision making in situations where outcomes are partly random and partly 
+    under the control of a decision maker.
+
+    - application of markov decision process
+        1. Population harvesting 
+        2. Agriculture 
+        3. Water processes 
+        4. Inspection, maintenance and repair 
+        5. Purchasing, inventory and production
+        6. Finance and investment 
+        7. Queues 
+        8. Sales promotion
+        9. Search 
+        10. Motor insurance claims
+        11. Overbooking
+        12. Epidemics
+        11. Credit
+        12. Sports 
+        13. patients admissions 
+        14. Locations 
+        15. Design of Experiments
+        16. General
+
+    AI planning and policy
+      planing:
+      Planning is a long-standing sub-area of Artificial Intelligence (AI). Planning is the task of finding a procedural course of action for a declaratively described system to reach 
+      its goals while optimizing overall performance measures.
+      
+      policy:
+        Policy is a definite course or method of action selected from among alternatives and in light of given conditions to guide and determine present and future decisions. Whereas, Plan is a detailed 
+        formulation of a program of actions to achieve the objective.
+
